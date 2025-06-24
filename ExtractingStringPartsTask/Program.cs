@@ -31,7 +31,7 @@
             int A = 0 ;
             for(int i=0; i<country.Length;i++)
             {
-                if(country[i]=='S')
+                if(country[i]=='S') // Use IndexOf
                 {
                     S = i ;
                 }
